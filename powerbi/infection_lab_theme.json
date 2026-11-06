@@ -1,0 +1,33 @@
+{
+  "name": "Infection Lab",
+  "dataColors": ["#00ffad", "#1597ff", "#ff00c1", "#f5a524", "#8b949e", "#7c5cff", "#2dd4bf", "#ff5c7a"],
+  "background": "#0d1117",
+  "foreground": "#e6edf3",
+  "tableAccent": "#00ffad",
+  "good": "#00ffad",
+  "neutral": "#f5a524",
+  "bad": "#ff5c7a",
+  "maximum": "#00ffad",
+  "center": "#1597ff",
+  "minimum": "#30363d",
+  "textClasses": {
+    "callout": { "fontSize": 30, "fontFace": "Segoe UI Semibold", "color": "#e6edf3" },
+    "title": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#e6edf3" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#e6edf3" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#8b949e" }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#010409" } }, "transparency": 0 }]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0d1117" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#30363d" } }, "radius": 12 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#e6edf3" } }, "fontSize": 12 }]
+      }
+    }
+  }
+}
