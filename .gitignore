@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.idea/
+
+# Personal data: never commit
+data/
+Streaming_History_*.json
+infection_lab.html
+infection_lab_nodes.csv
+infection_lab_edges.csv
+# A .pbix embeds its data. Remove this line only for a build made from the sample data.
+*.pbix
